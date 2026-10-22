@@ -1,0 +1,27 @@
+
+# Node.js
+frontend/node_modules/
+frontend/dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Go build outputs
+backend/geo-entity-manager.exe
+backend/geo-entity-manager
+
+# Local SQLite database
+backend/*.db
+backend/*.db-shm
+backend/*.db-wal
+
+# Logs
+*.log
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
